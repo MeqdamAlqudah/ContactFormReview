@@ -222,7 +222,7 @@ li {
 }
 
 footer ul li {
-  margin-left: 2px;
+  margin-left: 9px;
 }
 
 .card-stacks li {
@@ -348,13 +348,13 @@ footer ul li {
   flex-direction: column;
 }
 
-.contact_form div {
+.contact_form p {
   font-size: 32px;
-  font-weight: bolder;
+  font-weight: 800;
   text-align: center;
   margin-top: 82px;
   margin-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
   color: #172b4d;
 }
 
@@ -372,6 +372,7 @@ form input {
   border: none;
   border-bottom: solid 1px;
   border-color: #c1c1c1;
+  width: 87%;
 }
 
 textarea {
@@ -380,20 +381,22 @@ textarea {
   padding: 10px;
   border: none;
   background-color: #fbf8f7;
-  width: 196px;
+  width: 87%;
   height: 85px;
+  font-family: 'Inter', sans-serif;
 }
 
 .submitButton {
   background-color: #ff6b00;
   color: #fff;
   display: flex;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   position: static;
-  width: 131px;
-  height: 48px;
+  width: 104px;
+  height: 38px;
   left: 98px;
   top: calc(50% - 48px / 2 + 141px);
   border: none;
@@ -402,6 +405,11 @@ textarea {
 
 .submitButton:hover {
   background-color: #fbf8f7;
+  font-weight: 900;
+  padding: 5px;
+  border: solid;
+  border-color: #ff6b00;
+  border-width: 2px;
   color: #ff6b00;
 }
 
@@ -412,11 +420,15 @@ footer {
   flex-direction: column;
   display: flex;
   border: none;
-  border-top: solid 1px;
-  border-color: #c1c1c1;
 }
 
 footer ul {
   display: flex;
   justify-content: center;
+  border: none;
+  border-top: solid 1px;
+  border-color: #c1c1c1;
+  width: 100%;
+  margin-top: 18px;
+  padding: 21px;
 }

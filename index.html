@@ -6,6 +6,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
     <title>Aziz Mejri - Portfolio</title>
   </head>
   <body>
@@ -291,24 +294,26 @@
         </div>
       </div>
       <section class="contact_form">
-<div>I'm always interested inhearing about new projects,so if you'd like to chat please get in</div>
+<p>I'm always interested inhearing about new projects,so if you'd like to chat please get in</p>
+<footer>
 <form action="https://formspree.io/f/xpzbrnpq" method="post">
-  <input type="email" placeholder="Full name"  maxlength="10" name = "Full name"  />
-  <input type="text" placeholder="Email address" name = "email" />
-  <textarea placeholder="Enter text here" name = "text"  maxlength="10" ></textarea>
-  <button class="submitButton" type="button">Get in touch</button>
+  <input type="text" placeholder="Full name"  maxlength="30" name = "Full name" required />
+  <input type="email" placeholder="Email address" name = "email" required />
+  <textarea  name = "text"  maxlength="500" required>Enter text here</textarea>
+  <button class="submitButton" type="submit">Get in touch</button>
 </form>
+
+  <ul>
+    <li class="GitHub"><img src="./media/png/GitHub.png" alt="GitHub"/></li>
+    <li class="Linkedin"><img src="./media/png/Linkedin.png" alt="Linkedin"/></li>
+    <li class="Angellist"><img src="./media/png/Angellist.png" alt="Angellist"/></li>
+    <li class="Twitter"><img src="./media/png/Twitter.png" alt="Twitter"/></li>
+    <li class="Vector"><img src="./media/png/Vector.png" alt="medium"/></li>
+  </ul>
+  <hr/>
+</footer>
       </section>
-      <footer>
-        <ul>
-          <li class="GitHub"><img src="./media/png/GitHub.png" alt="GitHub"/></li>
-          <li class="Linkedin"><img src="./media/png/Linkedin.png" alt="Linkedin"/></li>
-          <li class="Angellist"><img src="./media/png/Angellist.png" alt="Angellist"/></li>
-          <li class="Twitter"><img src="./media/png/Twitter.png" alt="Twitter"/></li>
-          <li class="Vector"><img src="./media/png/Vector.png" alt="medium"/></li>
-        </ul>
-        <hr/>
-      </footer>
+      
     </main>
 
     <script
