@@ -375,7 +375,7 @@ form input {
 }
 
 textarea {
-  color: black;
+  color: rgba(0, 0, 0, 0.897);
   margin: 10px;
   padding: 10px;
   border: none;
